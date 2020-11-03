@@ -1,0 +1,141 @@
+.nowPlaying {
+  position: fixed;
+  display: flex;
+  bottom: 0;
+  padding: 20px 0 20px 10px;
+  height: 65px;
+  width: 100%;
+  background-color: #282828;
+}
+
+.nowPlaying__right * .MuiSlider-root {
+  color: green;
+}
+.nowPlaying__left {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.nowPlaying__green {
+  color: #1ed15e;
+}
+
+.nowPlaying__center {
+  width: 65%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.playerImage {
+  margin: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 1);
+  border-radius: 25px;
+}
+
+.nowPlaying__icon:hover,
+.nowPlaying__green:hover {
+  transition: transform 0.2s ease-in-out;
+  transform: scale(1.2) !important;
+}
+
+.nowPlaying__right {
+  display: none;
+}
+
+.nowPlaying__albumLogo {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+  object-fit: contain;
+}
+
+.nowPlaying__songInfo > p {
+  font-size: 12px;
+}
+.nowPlayingName {
+  margin: 0 0 5px;
+  font-size: 14px;
+}
+
+.nowPlayingArtistsContainer {
+  line-height: 1;
+}
+
+.noLink {
+  color:inherit;
+  text-decoration: none;
+}
+
+
+/* Tablette */
+@media (min-width: 768px) {
+  .nowPlaying__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+  }
+
+  .nowPlaying {
+    justify-content: space-between;
+    padding: 20px;
+    width: 98%;
+  }
+
+  .nowPlaying__songInfo > h4 {
+    margin-bottom: 5px;
+  }
+  
+  .nowPlaying__songInfo > p {
+    font-size: 12px;
+  }
+  .nowPlaying__left {
+    width: 300px;
+  }
+  
+  .nowPlaying__center {
+    flex: 0.4;
+    max-width: 300px;
+    padding-left: 10px;
+    justify-content: space-evenly;
+  }
+}
+
+/* desktop */
+@media (min-width: 980px) { 
+  .nowPlaying__right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    flex: 0.3;
+  }
+  
+  .nowPlaying {
+    justify-content: space-between;
+    padding: 20px;
+    width: 98%;
+  }
+
+  .nowPlaying__songInfo > h4 {
+    margin-bottom: 5px;
+  }
+  
+  .nowPlaying__songInfo > p {
+    font-size: 12px;
+  }
+  .nowPlaying__left {
+    width: 300px;
+  }
+
+  .nowPlaying__center {
+    flex: 0.4;
+    max-width: 300px;
+    padding-left: 10px;
+    justify-content: space-evenly;
+  }
+}

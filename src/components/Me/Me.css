@@ -1,0 +1,90 @@
+.cardContainer {
+  display: flex;
+  overflow: scroll;
+  margin-left: 1px;
+}
+
+.cardContainer::-webkit-scrollbar {
+  display: initial;
+}
+
+.titlePlaylistMap {
+  color: azure;
+  font-size: 2.2em;
+  margin-left: 25px;
+  text-align: center;
+  padding-bottom: 15px;
+  border-bottom: solid 1px #282828;
+
+
+}
+.welcomeContainer {
+  display: flex;
+  width: 100%;
+}
+
+.welcome {
+  display: flex;
+  margin: 10px auto;
+  color: azure;
+  font-size: 3em;
+  text-align: center;
+}
+
+.player {
+  position: fixed;
+  width: 99%;
+  bottom: 10px;
+  height: 8%;
+  border: 3px solid #3bc007;
+}
+
+.player h1 {
+  display: inline;
+  color: azure;
+}
+
+.player h2 {
+  display: inline;
+  color: azure;
+}
+
+.player img {
+  display: inline;
+}
+
+.userProfile {
+  border: 3x solid #3bc007;
+  width: 99%;
+  bottom: 10px;
+  height: 8%;
+}
+
+
+.albumResult {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around,
+}
+
+.gridCell {
+  width: 50%;
+}
+
+.gridList {
+  width: 100;
+  height: 100;
+}
+
+.artistImage {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    width: 20%;
+}
+
+.meContent {
+  width: 100%;
+  height : calc(100% - 94px) !important;
+  overflow-y : auto;
+  position:absolute;
+}

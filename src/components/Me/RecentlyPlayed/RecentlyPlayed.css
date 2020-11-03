@@ -1,0 +1,72 @@
+.recentcard {
+    border: solid 1px #bfbfbf;
+    border-radius: 1em;
+    box-shadow: 0 0.4em 1.5em 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 175px;
+    margin: 10px auto;
+/*   
+    @include md {
+      flex-wrap: wrap;
+      max-height: 170px;
+    } */
+}
+
+.recentcardLink {
+  text-decoration: none;
+}
+.recentcards {
+  width: 250px;
+}
+
+.recenttitleContainer {
+  display: flex;
+  text-decoration: none;
+}
+
+.recenttitleContainer:hover {
+  text-decoration: underline;
+  text-decoration-color: azure;
+}
+
+.recentcardTitle {
+  font-size: 1.3em;
+  max-height: 30px;
+  padding: 0;
+  text-align: center;
+  color: azure;
+  margin: 0 auto;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.recentplaylistName {
+  color: black;
+  font-size: 24px;
+}
+
+.recentplaylistImage {
+  width: 200px;
+  height: 175px;
+  border-radius: 1em;
+}
+.recentplaylistImage:hover {
+  opacity: 0.5;
+}
+
+.recentDescriptionContainer {
+  display: flex;
+  width: 210px;
+  margin:  auto;
+  
+
+}
+.recentdescriptionCard {
+  margin: 0 auto;
+  color: azure;
+}
+.recentdescriptionCard:hover {
+  color: #282828;
+}

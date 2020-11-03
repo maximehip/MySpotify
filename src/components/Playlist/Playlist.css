@@ -1,0 +1,157 @@
+
+body {
+    background-color: #544f4f;
+}
+
+.playlistInfos {
+    display: inline;
+    width: 100%;
+}
+
+.playlistTitleContainer {
+    width: 100%;
+    display: flex;
+}
+.artworkp {
+    align-content: center;
+    display: flex;
+    width: 100%;
+}
+
+.artworkp img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.playlistTitle {
+    color: white;
+    font-size: 45px;
+    display: inline;
+    margin: 0 auto;
+
+}
+
+.albumInfos p { 
+    display: inline;
+    color: white;
+    margin-top: 5%;
+}
+.playButton {
+    background-color: #1DB954;
+    border-radius: 14px;
+    color: #1DB954;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 7px 14px;
+}
+
+.playButton:hover {
+    background-color: #1DB954;
+  }
+
+.saveButton {
+    background: #404241;
+    border-radius: 14px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 7px 14px;
+}
+
+.saveButton:hover {
+    background: #404241;
+    border-radius: 14px;
+    color: white;
+}
+
+.header {
+    margin-top: 25px;
+}
+
+.listSong {
+    width: auto;
+}
+
+.listSong p {
+    color: white;
+}
+
+.listSong span {
+    color: white;
+}
+
+.trackItem:hover {
+    background: #404241;
+    border-radius: 14px;
+    color: white;
+}
+
+.release_date p {
+    display: inline;
+}
+.songCount p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin: 5px;
+}
+
+.isPlaying span {
+    color: green;
+}
+
+.isPlaying p {
+    color: green;
+}
+
+.albumsImage img {
+    border-radius: 10px;
+    width: 80%;
+}
+
+.playlist_author {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 5px;
+    text-align: center;
+    align-content: center;
+}
+
+.content {
+    width: 100%;
+    height : calc(100% - 94px) !important;
+    overflow-y : auto;
+    position:absolute;
+}
+
+/* Tablette */
+@media (min-width: 768px) {
+    .playlistTitle {
+        font-size: 50px;
+    }
+}
+  
+/* desktop */
+@media (min-width: 980px) { 
+    .playlistTitle {
+        font-size: 75px;
+        margin: 0 auto;
+    }
+    .artworkp img {
+        width: 20%;
+    }
+    .playlist_author {
+        font-size: 50px;
+        margin: 10px 0;
+    }
+    .songCount p {
+        font-size: 25px;
+    }
+}

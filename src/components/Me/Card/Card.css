@@ -1,0 +1,72 @@
+.card {
+    border: solid 1px #bfbfbf;
+    border-radius: 1em;
+    box-shadow: 0 0.4em 1.5em 0 rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 175px;
+    margin: 10px auto;
+/*   
+    @include md {
+      flex-wrap: wrap;
+      max-height: 170px;
+    } */
+}
+
+.cardLink {
+  text-decoration: none;
+}
+.cards {
+  width: 250px;
+}
+
+.titleContainer {
+  display: flex;
+  text-decoration: none;
+}
+
+.titleContainer:hover {
+  text-decoration: underline;
+  text-decoration-color: azure;
+}
+
+.cardTitle {
+  font-size: 1.3em;
+  max-height: 30px;
+  padding: 0;
+  color: azure;
+  margin: 0 auto;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.playlistName {
+  color: black;
+  font-size: 24px;
+}
+
+.playlistImage {
+  width: 200px;
+  height: 175px;
+  border-radius: 1em;
+}
+
+.playlistImage:hover {
+  opacity: 0.5;
+}
+
+.descriptionContainer {
+  display: flex;
+  width: 210px;
+  margin: auto;
+}
+
+.descriptionCard {
+  margin: 0 auto;
+  color: azure;
+}
+
+.descriptionCard:hover {
+  color: #282828;
+}

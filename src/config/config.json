@@ -1,0 +1,19 @@
+{
+    "spotifyClientId": "ssc",
+    "spotifyClientSecret": "zds",
+    "debug": false,
+    "scopes":  [
+        "user-top-read",
+        "user-read-currently-playing",
+        "user-read-playback-state",
+        "user-modify-playback-state",
+        "user-library-modify",
+        "user-read-recently-played",
+        "playlist-read-collaborative",
+        "playlist-read-private",
+        "playlist-modify-public",
+        "playlist-modify-private"
+    ],
+    "authEndpoint": "https://accounts.spotify.com/authorize",
+    "redirectUri":  "http://localhost:3000/login"
+}

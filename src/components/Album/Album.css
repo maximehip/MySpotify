@@ -1,0 +1,179 @@
+body {
+    background-color: #544f4f;
+}
+.AlbumImageContainer {
+    display: flex;
+    width: 100%;
+}
+
+.AlbumImage {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 1);
+    border-radius: 25px;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.albumInfosContainer {
+    width: 100%;
+    align-items: center;
+}
+
+.AlbumTitleContainer {
+    display: flex;
+}
+
+.AlbumTitle {
+    color: white;
+    font-size: 40px;
+    display: inline;
+    text-align: center;
+    margin: 10px auto;
+    line-height: 1;
+}
+
+.AlbumArtistName {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+
+.playButton {
+    background: #1DB954;
+    border-radius: 14px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 7px 14px;
+    margin: 0 auto;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+
+.playButton:hover {
+    background-color: #404241;
+    border-radius: 50px;
+}
+
+.saveButton {
+    background: #404241;
+    border-radius: 14px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    padding: 7px 14px;
+}
+
+.saveButton:hover {
+    background: #404241;
+    border-radius: 14px;
+    color: white;
+}
+
+.header {
+    margin-top: 25px;
+}
+
+.listSong p {
+    color: white;
+}
+
+.listSong span {
+    color: white;
+}
+
+.AlbumCopyrights {
+    margin-left: 25px;
+    margin-bottom: 75px;
+}
+
+.AlbumArtistList {
+    margin: 30px 0 0 50px;
+    padding-bottom: 10px;
+}
+
+.trackItem:hover {
+    background: #404241;
+    border-radius: 14px;
+    color: white;
+}
+
+.trackInfoContainer {
+    padding: 5px 15px;
+    display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-content: center;
+  align-items:center;
+}
+
+.timeCode {
+    margin-left: 30%;
+}
+
+.releaseDateContainer {
+    display: flex;
+}
+
+.releaseDate {
+    margin: 0 auto;
+}
+
+.AlbumSongCountContainer {
+    display: flex;
+}
+
+.AlbumSongCount {
+    margin: 0 auto;
+}
+
+.albumButtonsContainer {
+    display: table;
+    margin: 0 auto;
+
+}
+
+.isPlaying span {
+    color: green;
+}
+
+.isPlaying p {
+    color: green;
+}
+
+.artistList {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+}
+
+.ArtistAvatar {
+    height: 200%;
+    width: 200%;
+}
+
+.albumContent {
+    width: 100%;
+    height: calc(100% - 94px) !important;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position:absolute;
+    margin-bottom: 15px;
+}
+
+@media (min-width: 768px) {
+    .timeCode {
+        width: 100px;
+    }
+}
+
+@media (min-width: 980px) { 
+    .AlbumImage {
+        width: 20%;
+    }
+    .AlbumArtistName {
+        margin-bottom: 10px;
+    }
+    .AlbumSongCount {
+        margin: 10px auto;
+    }
+}
